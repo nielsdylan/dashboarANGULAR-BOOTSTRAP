@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" >Ejemplo1</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" routerLink="/home">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/form">Form</a>
+      </li> -->
+      <!-- otro ejemplo -->
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="listar-empleado">Listar empleado </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="agregar-empleado">Agregar empleado </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <h1>Contenido</h1>
+  <router-outlet></router-outlet>
+</div>
